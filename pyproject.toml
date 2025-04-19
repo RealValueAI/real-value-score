@@ -1,0 +1,21 @@
+[project]
+name = "realvaluerating"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "catboost>=1.2.8",
+    "clickhouse-connect>=0.8.17",
+    "clickhouse-driver>=0.2.9",
+    "clickhouse-sqlalchemy>=0.3.2",
+    "fastapi>=0.115.12",
+    "optuna>=4.3.0",
+    "optuna-integration>=4.3.0",
+    "pandas>=2.2.3",
+    "pyarrow>=19.0.1",
+    "python-dotenv>=1.1.0",
+    "scikit-learn>=1.6.1",
+    "sqlalchemy>=2.0.40",
+    "uvicorn>=0.34.1",
+]
